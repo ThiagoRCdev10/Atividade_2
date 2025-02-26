@@ -11,7 +11,6 @@
     text-align: center;
     color: rgba(103, 4, 202, 0.979);
     position:sticky;
-    
     width: 100%;
 
 }
@@ -25,15 +24,18 @@ ul li{
     display: inline;
 }
 
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+}
+
 ul li a{
     text-decoration: none;
     color: rgba(141, 1, 247, 0.631);
     font-weight: bold;
     border: 1px solid rgba(137, 43, 226, 0.038);
     border-radius: 10px;
-    background-color: rgba(98, 0, 255, 0.119);
+    background-color: rgba(199, 173, 241, 0.95);
     padding: 3px;
-
 }
 
 
@@ -42,17 +44,17 @@ ul li a{
     margin-top: 20px;
 }
 
-.tamanho_img_padrao{
-    height: 300px;
+.estilo_imagens{
+    width: 700px;
 }
 
 h2{
     color: rgb(136, 0, 255);  
-    line-height: 30pt;
     background-color: rgba(154, 106, 202, 0.406);
-    width: 40%;
+    width: 300px;
     margin: 10px;
     font-style: italic;
+    padding: 10px;
 }
 
 p{
@@ -63,4 +65,40 @@ p{
 strong{
     color: rgb(70, 0, 160);
     font-weight: bold;
+}
+
+.quebra_de_linha{
+    display: block;
+}
+
+
+
+#vermelho{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 550px;
+
+
+    
+}
+
+#azul{
+    background-color: rgb(0, 128, 255);
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    
+
+  
 }
