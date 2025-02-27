@@ -6,11 +6,14 @@
 }
 
 #cabeçalho{
-    background-color: rgba(83, 43, 226, 0.622);;
+    background-color: rgb(155, 35, 253);;
     padding: 30px;
     text-align: center;
-    color: rgba(103, 4, 202, 0.979);
+    color: rgba(236, 218, 255, 0.979);
     width: 100%;
+    position: sticky;
+    top: 0px;
+    
 }
 
 h1{
@@ -50,8 +53,11 @@ ul li a{
 
 .estilo_imagens{
    
-    margin-left:10px ;
+    
     width: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -101,9 +107,11 @@ footer a{
 }
 
 footer a:hover{
+    transition: 0.6s;
     text-decoration: underline;
     color: rgb(165, 198, 253);
     font-weight: bold;
+    
 }
 
 .caixa_descrição{
