@@ -5,6 +5,7 @@
     padding: 0px;
 }
 
+
 #cabeçalho{
     background-color: rgb(155, 35, 253);;
     padding: 30px;
@@ -40,6 +41,10 @@ nav ul{
     justify-content: center;
 }
 
+section ul li{
+    margin-bottom: 13px;
+}
+
 nav ul li{
     margin-left: 20px;
     font-size: 20pt;
@@ -55,7 +60,7 @@ ul{
     margin-top: 10px;
 }
 
-ul li a{
+nav ul li a{
     text-decoration: none;
     color: rgba(141, 1, 247, 0.631);
     font-weight: bold;
@@ -63,6 +68,17 @@ ul li a{
     border-radius: 10px;
     background-color: rgba(199, 173, 241, 0.95);
     padding: 3px;
+}
+
+section ul li a{
+    text-decoration: none;
+    color: rgb(70, 0, 160);
+    font-weight: bold;
+}
+section p strong a{
+    text-decoration: none;
+    color: rgb(70, 0, 160);
+    font-weight: bold;
 }
 
 .margem_itens_navegação{
@@ -77,6 +93,9 @@ ul li a{
 strong{
     color: rgb(70, 0, 160);
     font-weight: bold;
+    background-color: rgba(225, 32, 255, 0.126);
+    border-radius: 10px;
+    padding: 3px;
 }
 
 .quebra_de_linha{
@@ -99,6 +118,11 @@ footer a{
     text-decoration: none;
     color: aliceblue;
     font-weight: bold;
+    display: inline-block;
+    background-color: rgba(237, 5, 254, 0.247);
+    padding: 8px;
+    border-radius: 10px;
+
 }
 
 footer a:hover{
@@ -124,4 +148,78 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(131, 19, 236, 0.963);
+    gap: 5px;
+    border: 5px solid rgba(131, 19, 236, 0.963);;
+    
+}
+.conteiner > p{
+    background-color: rgb(190, 150, 241);
+    padding: 10px;
+    text-align: start;
+}
+.conteiner > ul{
+    background-color: rgb(190, 150, 241);
+    padding: 10px;
+    text-align: start;
+}
+.conteiner > div{
+    background-color: rgb(190, 150, 241);
+    padding: 10px;
+    text-align: start;
+}
+
+#espaço_mais_informações{
+    position: absolute;
+    top: 1200px;
+    right: 20px;
+    height: 1040px;
+    width: 160px; 
+}
+#mais_informações{
+    position: sticky;
+    top: 900px;
+    background-color: rgba(127, 86, 239, 0.96);
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    color: rgb(236, 217, 255);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#botao{
+    margin: 12px;
+    background-color: rgba(240, 248, 255, 0.677);
+    
+    height: 30px;
+    width: 120px;
+    color: rgb(136, 0, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#botao:hover{
+    background-color: aliceblue;
+    color: rgb(221, 0, 255);
+}
+#bandeira_do_chile{
+    position: absolute;
+    z-index: 1;
+}
+
+#bandeira_do_chile > img{
+    width: 100px;
 }
